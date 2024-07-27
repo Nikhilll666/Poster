@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #5F5F62;
+    font-family: Montserrat;
+}
+#maindiv {
+    position: relative;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 76%;
+    background-color: #5F5F62;
+}
+#mtext {
+    color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    text-align: center;
+    font-family: "voyage";
+    color: #fff;
+}
+#mtext h1 {
+    white-space: nowrap;
+    font-weight: 100;
+    font-size: 6vw;
+}
+#mtext h3 {
+    white-space: nowrap;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+
+#left {
+    overflow: hidden;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: #7d4c4466;
+}
+#nav {
+    width: 100%;
+    padding: 15px 30px;
+    align-items: center;
+    display: flex;
+    gap: 25% ;
+    color: #fff;
+
+}
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+#nav h3 {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+#centreing {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 70%;
+    background-image: url(https://media.istockphoto.com/id/1195943861/photo/gorgeous-natural-beauty-woman-smiling-at-the-camera.jpg?s=1024x1024&w=is&k=20&c=UmCV9T7ySazhKY2UYkHqDbeg1ETUzPto6XR-BFz2PPE=);
+    background-size: cover;
+    background-position: center;
+}
+#text #parts { 
+    width: 30%;
+}
+#parts h5 {
+    padding-top: 10px;
+    margin-top: -5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#text #para {
+    margin-bottom: -18px;
+    justify-content: center;
+    width: 70%;
+}
+#para p {
+    line-height: 20px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+#centreing #text {
+    display: flex;
+    position: absolute;
+    bottom: -12%;
+    width: 100%;
+}
+#text h5 {
+    margin-left: 15px;
+}
+#scroll {
+    position: absolute;
+    bottom: -2%;
+    left: 5%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+}
+#scroll h4 {
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9px;
+}
+
+#scroll #line {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#centre {
+    position: relative;
+    width: 47%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/1195943857/photo/beautiful-woman-exploring-argentina.jpg?s=1024x1024&w=is&k=20&c=4PxneHuZnZTYkzTyDaeX0yqvXsfrlEdHvT7w4ee-yio=);
+    background-size: cover;
+    background-position: center;
+}
+#centre #card {
+    display: flex;
+    position: absolute;
+    right: -10%;
+    bottom: 2%;
+    width: 210px;
+    height: 130px;
+    background-color: #fff;
+}
+
+#card #cicons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 8px;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+}
+#cicons i {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+#card #cimg {
+    width: 90%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/533314469/photo/mustard-flower.jpg?s=1024x1024&w=is&k=20&c=CxBCZVuovXtqJlEzq1yVBrDQumYGrjkWpJFoKfJsavc=);
+    background-size: cover;
+
+}
+
+#right {
+    position: relative;
+    width: 7%;
+    height: 100%;
+    background-color: #7d4c4466;
+    color: #fff;
+}
+
+#right #relem {
+    padding: 10px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+#right #relemlinks {
+    display: flex;
+    position: absolute;
+    gap: 25px;
+    transform: rotate(90deg);
+    left: -75%;
+    top: 40%;
+}
+
+#relemlinks a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    margin-top: -15%;
+}
+
